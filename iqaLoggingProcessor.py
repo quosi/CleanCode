@@ -95,22 +95,15 @@ class IqaLoggingProcessor:
         metric, _, _, _, _, _, _, _ = [*nameComponents]
         if metric == "ictcp":
             # create ictcp index for df
-            index = ['Frame', 'Delta ICTCP min', 'Delta ICTCP max', 'Delta ICTCP ave']
+            columnames = ['Frame', 'Delta ICTCP min', 
+            'Delta ICTCP max', 'Delta ICTCP ave']
         elif metric == "dE2000":
             # create dE2000 index for df
-            index = ['Frame', 'DeltaE CIE2000 mean', 'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
+            columnames = ['Frame', 'DeltaE CIE2000 mean', 
+            'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
         else:
             print("Unsupportet metric or size (UHD / HD) \n Please check log file name string.")
         # create data frame from extraxted data
         content = list(zip(*data))
-        df = pd.DataFrame(list(np.array(content).T), index=index)
-        df = df.T
+        df = pd.DataFrame(list(np.array(content)), columns=columnames)
         return df
-
-iqa = IqaLoggingProcessor("/Users/hquos/Projects/DSV_libdm4/logs/01_DvDmApp/ictcp/")
-pathList = iqa.getSubPathList()
-files = iqa.getFilenameList(pathList[0])
-fileComponents = iqa.getFilenameComponents(files[1])
-ictcpData = iqa.getIctcpValues(pathList[0], files[1])
-df = iqa.createDataframe(ictcpData, fileComponents)
-print(df)
