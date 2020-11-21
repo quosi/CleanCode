@@ -8,11 +8,9 @@ import matplotlib.pyplot as plt
 import random
 import math
 import os
-import sys
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import Range1d
 from bokeh.embed import components
-
 
 def get_filename_components(filename):
     frase = r"(?<=dE2000_out_).+(?=_)"
