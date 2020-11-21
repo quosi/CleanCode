@@ -1,1 +1,5 @@
+# Ignore testfiles
 *.txt
+
+# Ignore build foulders build/ and Build/
+[bB]uild/
