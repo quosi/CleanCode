@@ -28,6 +28,7 @@ def main(argv):
             print("Unsupported argument. \n Please use -h option for help.")
 
     # 2. Data retrieval and processing
+    
     iqa = IqaLoggingProcessor(inpath)
     pathList = iqa.getSubPathList()
     files = iqa.getFilenameList(pathList[1])

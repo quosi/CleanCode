@@ -92,7 +92,8 @@ def draw_ictcp(file, inpath, outpath):
     y_avg = [float(y) for y in df.loc['DeltaE CIE2000 mean']]
     y_sm = [float(y) for y in df.loc['smoothed dE2000 max']]
     y_th10 = [1 for i in range(0, int(len(x)))]
-    y_th25 = [2.5 for i in range(0, int(len(x)))]                           
+    y_th25 = [2.5 for i in range(0, int(len(x)))]
+                              
     max_yticks = math.ceil(max(y_max))
     if max_yticks < 3:
         max_yticks = 3

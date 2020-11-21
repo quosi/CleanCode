@@ -71,6 +71,7 @@ def draw_ictcp(file, inpath, outpath):
     else:
         print("Date extraction not possible! \n Please check log file format.")
     df = pd.DataFrame(list(np.array(content).T), index=index)
+    
     luma = []
     chroma = []
     nr_frame = int((df.columns[-1]+1)/2)
