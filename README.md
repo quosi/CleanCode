@@ -1,4 +1,4 @@
-![CleanCode_CheatSheet](/img/CleanCode_CheatSheet.png" "CleanCode CheatSheet")
+![CleanCode_CheatSheet](/img/CleanCode_CheatSheet.png "Clean Code Cheat-Sheet")
 
 # Apply CleanCode 
 
