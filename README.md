@@ -11,7 +11,7 @@ Some steps to create a nice ditigal working environment for a clean start:
 - initialise a git repository for version controll and link it to a remote URL
 - create and/or activate your virtual environment for this project
 - move working files out of this repository (*.ipynb) or at least
-- create a <.gitignore> file do hide certain file (like notes.txt etc.) from git version controll
+- create a ```.gitignore``` file do hide certain file (like notes.txt etc.) from git version controll
 - draw diagram to plan code structure
 - tea break
 
