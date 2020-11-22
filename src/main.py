@@ -18,8 +18,8 @@ def main(argv):
 
     for opt, arg in opts:
         if opt == '-h':
-            print('python3 main.py -i <inpath> -o <outpath>')
-            print('Supported IQA tools: \n - ictcp_tool\n - dE2000')
+            print('USAGE --> python3 main.py -i <inpath> -o <outpath>')
+            print('INFO  --> Supported IQA tools: ictcp_tool, dE2000')
             sys.exit(0)
         elif opt in ("-i", "--inpath"):
             inpath = arg
