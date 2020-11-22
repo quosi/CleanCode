@@ -7,8 +7,9 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 
 ## STEP 1
 
-<img align="right" width="140" src="img/screenshot1.png" alt="Original state, collection of python scripts">
+<img align="right" width="140" src="img/screenshot1.png" alt="Original state, collection of python scripts"><br>
 <img align="right" width="140" src="img/screenshot2.png" alt="Initialise git and clean up working files">
+
 Some steps to create a nice ditigal working environment for a clean start:
 - initialise a git repository for version controll and link it to a remote URL
 - create and/or activate your virtual environment for this project
