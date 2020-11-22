@@ -1,2 +1,5 @@
 # Ignore temp foulders
 src/__pycache__/
+tests/_pycache__/
+__pycache__/
+.pytest_cache/
