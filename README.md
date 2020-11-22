@@ -3,7 +3,8 @@
 # Apply CleanCode 
 
 As this bundle of data analysis code grew to the medium size collection of a python scripts, it is perfect for a little Clean Code exercise. <br>
-The following steps where applied in order to create a easy to use and clean python application.
+The following steps where applied in order to create a easy to use and clean python application. <br>
+<a href="src/instructions.md> >> Go straight to user instructions >> </a>
 
 ## PHASE 1
 
@@ -38,7 +39,7 @@ Now its about time to dig into this code collection and start cleaning!
 - add command line interface for easy handling
 - solve more bugs 🐜
 - add documentation to functions and classes
-- write requirements.txt to collect used python libraries
-- write basic user instructions in README.md file for your git repository
+- write ```requirements.txt``` to collect used python libraries
+- write basic user instructions in ```README.md``` file for your git repository
 
 
