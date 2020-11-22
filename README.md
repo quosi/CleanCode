@@ -24,7 +24,7 @@ Some steps to create a nice ditigal working environment for a clean start:
 
 ## STEP 2
 
-<img align="right" width="300" src="img/screenshot3.png" alt="Refactoring of code functionality into seperate function.">
+<img align="right" width="500" src="img/screenshot3.png" alt="Refactoring of code functionality into seperate function.">
 
 Now its about time to dig into this code collection and start cleaning!
 - delet unused imports
