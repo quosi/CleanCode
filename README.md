@@ -6,11 +6,9 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 [>> Go straight to that clean python application & user instructions >>](src/instructions.md)
 
 ## STEP 1
-#img {float: right;}
-<div id="img">
-  <img align="right" width="200" src="img/screenshot1.png" alt="Original state, collection of python scripts">
-  <img align="right" width="200" src="img/screenshot2.png" alt="Initialise git and clean up working files">
-</div>
+
+<p align="right"> <img align="right" width="200" src="img/screenshot1.png" alt="Original state, collection of python scripts"> </p>
+<p align="right"> <img align="right" width="200" src="img/screenshot2.png" alt="Initialise git and clean up working files"> </p>
 
 Some steps to create a nice ditigal working environment for a clean start:
 - initialise a git repository for version controll and link it to a remote URL
