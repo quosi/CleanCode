@@ -66,27 +66,29 @@ class IqaLoggingProcessor:
 
     def getIctcpValues(self, filepath, filename):
         frames = []
-        minDeltaE = []
+        #minDeltaE = []
         maxDeltaE = []
         aveDeltaE = []
         regex1 = r"frame "
-        regex2 = r"\{ min "
+        #regex2 = r"\{ min "
         regex3 = r" max "
         regex4 = r" ave "
         readLog = open(filepath + filename)
         for line in readLog:
             frameFound = re.findall(r"(?<={})\d+".format(regex1), line)
-            minDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex2), line)
+            #minDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex2), line)
             maxDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex3), line)
             aveDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex4), line)
             [frames.append(f) for f in frameFound if len(frameFound) > 0]
-            [minDeltaE.append(mind) for mind in minDeltaEFound if len(minDeltaEFound) > 0]
+            #[minDeltaE.append(mind) for mind in minDeltaEFound if len(minDeltaEFound) > 0]
             [maxDeltaE.append(maxd) for maxd in maxDeltaEFound if len(maxDeltaEFound) > 0]
             [aveDeltaE.append(ave) for ave in aveDeltaEFound if len(aveDeltaEFound) > 0]
         readLog.close()
-        if len(frames) == len(minDeltaE) == len(maxDeltaE) == len(aveDeltaE):
+        #if len(frames) == len(minDeltaE) == len(maxDeltaE) == len(aveDeltaE):
+        if len(frames) == len(maxDeltaE) == len(aveDeltaE):
             print("Reading --> " + filename)
-            return [frames, minDeltaE, maxDeltaE, aveDeltaE]
+            #return [frames, minDeltaE, maxDeltaE, aveDeltaE]
+            return [frames, maxDeltaE, aveDeltaE]
         else:
             print("Date extraction not possible! \n Please check log file for completeness or format.")
             return None
@@ -95,14 +97,14 @@ class IqaLoggingProcessor:
         metric, _, _, _, _, _, _, _ = [*nameComponents]
         if metric == "ictcp":
             # create ictcp index for df
-            columnames = ['Frame', 'Delta ICTCP min', 
+            columnames = ['Frame', #'Delta ICTCP min',
             'Delta ICTCP max', 'Delta ICTCP ave']
         elif metric == "dE2000":
             # create dE2000 index for df
             columnames = ['Frame', 'DeltaE CIE2000 mean', 
             'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
         else:
-            print("Unsupportet metric or size (UHD/HD) \n Please check log file name string.")
+            print("Unsupportet metric. \n Please check log file name string.")
         # create data frame from extraxted data
         content = list(zip(*data))
         df = pd.DataFrame(list(np.array(content)), columns=columnames)

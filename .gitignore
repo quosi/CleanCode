@@ -1,5 +1,6 @@
-# Ignore testfiles
+# Ignore textfiles
 *.txt
 
-# Ignore build foulders build/ and Build/
+# Ignore temp & build foulders build/ and Build/
 [bB]uild/
+__pycache__/
