@@ -5,8 +5,10 @@ import pandas as pd
 import numpy as np
 
 class IqaLoggingProcessor:
-    '''A tool to process logfiles of different IQA tools for image quality assesment into a pandas dataframe.
-    The IqaLoggingProcessor needs an absolut filepath as input and will check for certain logfiles at this location.'''
+    '''A tool to process logfiles of different IQA tools for image quality assesment 
+    into a pandas dataframe. The IqaLoggingProcessor needs an absolut filepath 
+    as input and will check for certain logfiles at this location.'''
+    
     def __init__(self, inpath):
         self.inpath = inpath
         
