@@ -7,18 +7,10 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 
 ## STEP 1
 
-<img align="right" width="300" src="img/screenshot1.png" alt="Original state, collection of python scripts">
 
-Some steps to create a nice ditigal working environment for a clean start:
-- initialise a git repository for version controll and link it to a remote URL
-- create and/or activate your virtual environment for this project
-- move working files like ```*.ipynb``` out of this repository or at least
-- create a ```.gitignore``` file do hide certain files like ```notes.txt``` from git version controll
-
-<img align="right" width="300" src="img/screenshot2.png" alt="Initialise git and clean up working files">
-
-- draw diagram to plan code structure
-- tea break ☕
+Some steps to create a nice ditigal working environment for a clean start: <br> - initialise a git repository for version controll and link it to a remote URL <br> - create and/or activate your virtual environment for this project <br> - move working files like ```*.ipynb``` out of this repository or at least <br> - create a ```.gitignore``` file do hide certain files like ```notes.txt``` from git version controll <br> - draw diagram to plan code structure <br> - tea break ☕ | <img align="right" width="300" src="img/screenshot1.png" alt="Original state, collection of python scripts"> <br> <img align="right" width="300" src="img/screenshot2.png" alt="Initialise git and clean up working files">
+:---|---:
+ | 
 
 <br><br><br>
 
