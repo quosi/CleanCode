@@ -59,13 +59,13 @@ class IqaLoggingProcessor:
         try:
             smDeltaE.pop(-1)
         except:
-            print("Error  --> Logfile " + filename + "incomplete!")
+            print("Error   --> Logfile " + filename + " incomplete!")
             exit(1)
         if len(frames) == len(meanDeltaE) == len(maxDeltaE) == len(smDeltaE):
             print("Reading --> " + filename)
             return [frames, meanDeltaE, maxDeltaE, smDeltaE]
         else:
-            print("Date extraction not possible! \n Please check log file for completeness or format.")
+            print("Error   --> Logfile " + filename + " incomplete!")
             exit(1)
 
     def getIctcpValues(self, filepath, filename):
@@ -88,7 +88,7 @@ class IqaLoggingProcessor:
             print("Reading --> " + filename)
             return [frames, maxDeltaE, aveDeltaE]
         else:
-            print("Date extraction not possible! \n Please check log file for completeness or format.")
+            print("Error   --> Logfile " + filename + " incomplete!")
             exit(1)
 
     def createDataframe(self, filepath, filename, nameComponents):
@@ -100,7 +100,7 @@ class IqaLoggingProcessor:
             columnames = ['Frame', 'DeltaE CIE2000 mean', 'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
             data = self.getDeltaE2000Values(filepath, filename)
         else:
-            print("Unsupportet metric. \n Please check log file name string.")
+            print(f"Error   --> Unsupportet metric: {metric}. Please check log file name string.")
             exit(1)
         content = list(zip(*data))
         df = pd.DataFrame(list(np.array(content)), columns=columnames)
