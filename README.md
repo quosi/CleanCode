@@ -23,7 +23,7 @@ Some steps to create a nice ditigal working environment for a clean start:
 
 ## STEP 2
 
-![Screenshot3](/img/screenshot3.png "Refactoring of code functionality into seperate function." =150x100)
+![Screenshot3](/img/screenshot3.png "Refactoring of code functionality into seperate function.")
 
 Now its about time to dig into this code collection and start cleaning!
 - delet unused imports
