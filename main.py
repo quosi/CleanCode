@@ -42,8 +42,7 @@ def main(argv):
             print(error)
         for file in files:
             fileComponents = iqaProcessor.getFilenameComponents(file)
-            ictcpData = iqaProcessor.getIctcpValues(path, file)
-            data = iqaProcessor.createDataframe(ictcpData, fileComponents)
+            data = iqaProcessor.createDataframe(path, file, fileComponents)
             plotter = IqaPlotter(data, outDir, fileComponents, file)
             df = plotter.prepareDataFrame()
             plotter.getInteractivePlot(df)

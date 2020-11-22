@@ -39,7 +39,6 @@ class IqaPlotter:
                 else:
                     dfChroma = dfChroma.append(pd.Series(list(self.df.iloc[i]), index=chromaColumns), ignore_index=True)
             combinedDataFrame = pd.concat([dfLuma[lumaColumns], dfChroma[chromaColumns[1:]]], axis = 1)
-            #print("---------> Splitting Luma and Chroma data")
             return combinedDataFrame
         else:
             return self.df

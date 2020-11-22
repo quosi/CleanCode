@@ -28,6 +28,7 @@ class IqaLoggingProcessor:
             os = os.split(".")[0]
         else:
             print(f"--> Unsupportet IQA log file type: {filename}")
+            exit(1)
         return metric, size, algo, target, tools[0], tools[1], opt, os
 
     def getSubPathId(self, subPath):
@@ -41,7 +42,6 @@ class IqaLoggingProcessor:
         maxDeltaE = []
         # sm uses a smoothening filter size 11, sigma 3
         smDeltaE = []
-        # define regular expressions to find values in log file
         regex1 = r"^\s+\d+\s\d+\.\d+\s\d+\.\d+"
         regex2 = r"(?P<index>sm\s+)(?P<value>\d+\.\d+)"
         readLog = open(filepath + filename)
@@ -56,56 +56,52 @@ class IqaLoggingProcessor:
             frames.append(frame)
             meanDeltaE.append(mean)
             maxDeltaE.append(max_)
-        smDeltaE.pop(-1)
-        if len(frame) == len(meanDeltaE) == len(maxDeltaE) == len(smDeltaE):
+        try:
+            smDeltaE.pop(-1)
+        except:
+            print("Error  --> Logfile " + filename + "incomplete!")
+            exit(1)
+        if len(frames) == len(meanDeltaE) == len(maxDeltaE) == len(smDeltaE):
             print("Reading --> " + filename)
             return [frames, meanDeltaE, maxDeltaE, smDeltaE]
         else:
             print("Date extraction not possible! \n Please check log file for completeness or format.")
-            return None
+            exit(1)
 
     def getIctcpValues(self, filepath, filename):
         frames = []
-        #minDeltaE = []
         maxDeltaE = []
         aveDeltaE = []
         regex1 = r"frame "
-        #regex2 = r"\{ min "
         regex3 = r" max "
         regex4 = r" ave "
         readLog = open(filepath + filename)
         for line in readLog:
             frameFound = re.findall(r"(?<={})\d+".format(regex1), line)
-            #minDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex2), line)
             maxDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex3), line)
             aveDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex4), line)
             [frames.append(f) for f in frameFound if len(frameFound) > 0]
-            #[minDeltaE.append(mind) for mind in minDeltaEFound if len(minDeltaEFound) > 0]
             [maxDeltaE.append(maxd) for maxd in maxDeltaEFound if len(maxDeltaEFound) > 0]
             [aveDeltaE.append(ave) for ave in aveDeltaEFound if len(aveDeltaEFound) > 0]
         readLog.close()
-        #if len(frames) == len(minDeltaE) == len(maxDeltaE) == len(aveDeltaE):
         if len(frames) == len(maxDeltaE) == len(aveDeltaE):
             print("Reading --> " + filename)
-            #return [frames, minDeltaE, maxDeltaE, aveDeltaE]
             return [frames, maxDeltaE, aveDeltaE]
         else:
             print("Date extraction not possible! \n Please check log file for completeness or format.")
-            return None
+            exit(1)
 
-    def createDataframe(self, data, nameComponents):
+    def createDataframe(self, filepath, filename, nameComponents):
         metric, _, _, _, _, _, _, _ = [*nameComponents]
         if metric == "ictcp":
-            # create ictcp index for df
-            columnames = ['Frame', #'Delta ICTCP min',
-            'Delta ICTCP max', 'Delta ICTCP ave']
+            columnames = ['Frame', 'Delta ICTCP max', 'Delta ICTCP ave']
+            data = self.getIctcpValues(filepath, filename)
         elif metric == "dE2000":
-            # create dE2000 index for df
-            columnames = ['Frame', 'DeltaE CIE2000 mean', 
-            'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
+            columnames = ['Frame', 'DeltaE CIE2000 mean', 'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
+            data = self.getDeltaE2000Values(filepath, filename)
         else:
             print("Unsupportet metric. \n Please check log file name string.")
-        # create data frame from extraxted data
+            exit(1)
         content = list(zip(*data))
         df = pd.DataFrame(list(np.array(content)), columns=columnames)
         return df
