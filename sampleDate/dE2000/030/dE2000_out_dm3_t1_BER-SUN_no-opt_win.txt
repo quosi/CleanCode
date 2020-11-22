@@ -1,0 +1,892 @@
+Ref frame:        U:\DVPD_CI\results\manual_tests\DSV_libdm4\video_out\SUN\030\UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb
+Test frame:       U:\DVPD_CI\results\manual_tests\DSV_libdm4\video_out\BER\1_DvDmApp\030\UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+Frame size:       3840 * 2160 (max supported 4096 * 2160)
+sm:               off
+Ref  frame spec:  Rgb,  444,  U16, 12 bit, Plnr, Bt1886,    full,  R709, yuvXferR709
+Test frame spec:  Rgb,  444,  U16, 12 bit, Plnr, Bt1886,    full,  R709, yuvXferR709
+
+
+Frame  Mean   Max                                      ref vs                                     test
+
+    0 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    1 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    2 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    3 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    4 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    5 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    6 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    7 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    8 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+    9 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   10 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   11 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   12 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   13 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   14 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   15 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   16 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   17 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   18 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   19 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   20 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   21 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   22 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   23 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   24 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   25 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   26 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   27 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   28 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   29 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   30 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   31 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   32 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   33 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   34 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   35 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   36 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   37 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   38 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   39 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   40 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   41 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   42 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   43 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   44 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   45 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   46 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   47 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   48 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   49 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   50 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   51 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   52 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   53 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   54 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   55 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   56 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   57 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   58 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   59 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   60 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   61 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   62 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   63 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   64 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   65 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   66 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   67 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   68 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   69 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   70 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   71 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   72 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   73 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   74 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   75 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   76 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   77 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   78 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   79 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   80 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   81 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   82 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   83 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   84 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   85 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   86 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   87 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   88 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   89 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   90 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   91 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   92 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   93 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   94 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   95 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   96 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   97 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   98 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+   99 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  100 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  101 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  102 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  103 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  104 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  105 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  106 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  107 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  108 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  109 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  110 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  111 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  112 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  113 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  114 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  115 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  116 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  117 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  118 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  119 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  120 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  121 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  122 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  123 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  124 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  125 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  126 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  127 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  128 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  129 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  130 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  131 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  132 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  133 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  134 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  135 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  136 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  137 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  138 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  139 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  140 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  141 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  142 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  143 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  144 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  145 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  146 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  147 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  148 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  149 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  150 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  151 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  152 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  153 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  154 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  155 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  156 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  157 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  158 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  159 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  160 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  161 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  162 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  163 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  164 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  165 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  166 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  167 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  168 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  169 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  170 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  171 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  172 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  173 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  174 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  175 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  176 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  177 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  178 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  179 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  180 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  181 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  182 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  183 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  184 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  185 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  186 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  187 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  188 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  189 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  190 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  191 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  192 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  193 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  194 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  195 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  196 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  197 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  198 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  199 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  200 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  201 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  202 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  203 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  204 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  205 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  206 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  207 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  208 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  209 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  210 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  211 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  212 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  213 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  214 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  215 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  216 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  217 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  218 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  219 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  220 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  221 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  222 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  223 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  224 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  225 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  226 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  227 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  228 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  229 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  230 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  231 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  232 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  233 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  234 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  235 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  236 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  237 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  238 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  239 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  240 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  241 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  242 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  243 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  244 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  245 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  246 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  247 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  248 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  249 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  250 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  251 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  252 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  253 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  254 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  255 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  256 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  257 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  258 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  259 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  260 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  261 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  262 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  263 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  264 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  265 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  266 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  267 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  268 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  269 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  270 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  271 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  272 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  273 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  274 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  275 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  276 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  277 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  278 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  279 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  280 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  281 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  282 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  283 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  284 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  285 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  286 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  287 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  288 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  289 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  290 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  291 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+  292 0.000 0.000 UHD_444p_12bit_DM3_target1_sdr100_SUN_win.rgb UHD_444p_12bit_DM3_target1_sdr100_BER_no-opt_win.rgb
+
+
+Summary: Among   293 frames.
+  Mean 0.000   Max 0.000 @ frame 0
+

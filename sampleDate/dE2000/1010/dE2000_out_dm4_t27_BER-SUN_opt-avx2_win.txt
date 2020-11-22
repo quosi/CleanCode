@@ -1,0 +1,472 @@
+Ref frame:        U:\DVPD_CI\results\manual_tests\DSV_libdm4\video_out\SUN\092541010\SUN_win_dm4_t27\TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb
+Test frame:       U:\DVPD_CI\results\manual_tests\DSV_libdm4\video_out\BER\1_DvDmApp\092541010\TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+Frame size:       1920 * 1080 (max supported 4096 * 2160)
+sm:               on
+Ref  frame spec:  Rgb,  444,  U16, 12 bit, Plnr,     Pq,    full, P3d65, yuvXferR709
+Test frame spec:  Rgb,  444,  U16, 12 bit, Plnr,     Pq,    full, P3d65, yuvXferR709
+
+
+Frame  Mean   Max                                      ref vs                                     test
+
+    0 0.024 0.349 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.105
+
+    1 0.003 0.147 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.040
+
+    2 0.032 0.458 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.160
+
+    3 0.035 0.395 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.119
+
+    4 0.045 0.416 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.122
+
+    5 0.027 0.292 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.084
+
+    6 0.024 0.356 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.106
+
+    7 0.077 0.574 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.203
+
+    8 0.033 0.370 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.111
+
+    9 0.029 0.317 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.111
+
+   10 0.037 0.450 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.143
+
+   11 0.008 0.161 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.055
+
+   12 0.012 0.229 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.057
+
+   13 0.008 0.391 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.082
+
+   14 0.011 0.463 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.103
+
+   15 0.006 0.250 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.069
+
+   16 0.007 0.338 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.108
+
+   17 0.003 0.233 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.067
+
+   18 0.017 0.237 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.065
+
+   19 0.021 0.175 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.062
+
+   20 0.002 0.410 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.112
+
+   21 0.022 0.490 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.139
+
+   22 0.010 0.367 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.109
+
+   23 0.060 0.586 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.185
+
+   24 0.000 0.184 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.046
+
+   25 0.001 0.150 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.036
+
+   26 0.003 0.349 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.058
+
+   27 0.011 0.164 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.059
+
+   28 0.003 0.346 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.091
+
+   29 0.003 0.217 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.044
+
+   30 0.005 0.240 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.068
+
+   31 0.002 0.083 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.042
+
+   32 0.006 0.318 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.102
+
+   33 0.024 0.479 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.121
+
+   34 0.012 0.478 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.147
+
+   35 0.024 0.300 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.082
+
+   36 0.001 0.219 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.059
+
+   37 0.012 0.365 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.057
+
+   38 0.002 0.166 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.055
+
+   39 0.003 0.398 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.076
+
+   40 0.006 0.259 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.044
+
+   41 0.009 0.240 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.065
+
+   42 0.007 0.344 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.070
+
+   43 0.012 0.274 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.076
+
+   44 0.002 0.321 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.089
+
+   45 0.002 0.312 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.076
+
+   46 0.015 0.441 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.128
+
+   47 0.013 0.391 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.109
+
+   48 0.012 0.420 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.121
+
+   49 0.007 0.291 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.075
+
+   50 0.013 0.372 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.100
+
+   51 0.000 0.002 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.000
+
+   52 0.054 0.356 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.157
+
+   53 0.011 0.520 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.120
+
+   54 0.005 0.163 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.043
+
+   55 0.017 0.417 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.138
+
+   56 0.007 0.448 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.121
+
+   57 0.013 0.392 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.133
+
+   58 0.031 0.569 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.191
+
+   59 0.050 0.475 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.188
+
+   60 0.031 0.454 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.141
+
+   61 0.016 0.312 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.112
+
+   62 0.005 0.584 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.084
+
+   63 0.015 0.446 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.073
+
+   64 0.000 0.041 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.010
+
+   65 0.026 0.499 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.334
+
+   66 0.025 0.365 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.138
+
+   67 0.017 0.434 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.115
+
+   68 0.005 0.367 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.156
+
+   69 0.015 0.308 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.081
+
+   70 0.008 0.177 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.047
+
+   71 0.010 0.205 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.054
+
+   72 0.025 0.456 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.118
+
+   73 0.012 0.333 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.098
+
+   74 0.025 0.467 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.137
+
+   75 0.014 0.463 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.116
+
+   76 0.002 0.351 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.093
+
+   77 0.001 0.085 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.020
+
+   78 0.000 0.178 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.042
+
+   79 0.025 0.494 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.150
+
+   80 0.030 0.291 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.100
+
+   81 0.009 0.322 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.098
+
+   82 0.011 0.471 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.130
+
+   83 0.018 0.810 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+   84 0.005 0.412 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.109
+
+   85 0.005 0.412 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.109
+
+   86 0.017 0.298 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.080
+
+   87 0.017 0.502 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.105
+
+   88 0.001 0.340 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.067
+
+   89 0.030 0.452 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.130
+
+   90 0.020 0.454 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.085
+
+   91 0.042 0.403 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.126
+
+   92 0.006 0.124 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.060
+
+   93 0.000 0.230 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.053
+
+   94 0.003 0.242 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.071
+
+   95 0.009 0.283 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.088
+
+   96 0.052 0.556 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.159
+
+   97 0.038 0.529 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.197
+
+   98 0.005 0.290 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.137
+
+   99 0.008 0.231 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.069
+
+  100 0.013 0.300 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.080
+
+  101 0.004 0.332 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.066
+
+  102 0.013 0.348 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.115
+
+  103 0.009 0.279 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.150
+
+  104 0.014 0.553 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.139
+
+  105 0.031 0.320 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.110
+
+  106 0.006 0.330 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.084
+
+  107 0.015 0.409 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.167
+
+  108 0.009 0.369 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.130
+
+  109 0.019 0.474 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.187
+
+  110 0.000 0.246 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.046
+
+  111 0.026 0.442 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.208
+
+  112 0.006 0.307 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.082
+
+  113 0.002 0.223 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.056
+
+  114 0.010 0.797 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.177
+
+  115 0.007 0.355 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.110
+
+  116 0.000 0.224 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.064
+
+  117 0.006 0.299 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.047
+
+  118 0.007 0.297 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.072
+
+  119 0.011 0.272 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.126
+
+  120 0.001 0.251 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.064
+
+  121 0.006 0.277 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.073
+
+  122 0.010 0.260 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.085
+
+  123 0.007 0.222 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.055
+
+  124 0.007 0.322 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.133
+
+  125 0.005 0.261 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.079
+
+  126 0.014 0.488 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.117
+
+  127 0.024 0.383 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.126
+
+  128 0.027 0.299 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.103
+
+  129 0.002 0.125 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.031
+
+  130 0.004 0.218 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.058
+
+  131 0.046 0.557 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.153
+
+  132 0.020 0.070 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.051
+
+  133 0.037 0.362 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.115
+
+  134 0.015 0.209 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.091
+
+  135 0.024 0.742 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.092
+
+  136 0.027 1.047 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.354
+
+  137 0.013 0.113 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.113
+
+  138 0.003 0.137 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.020
+
+  139 0.000 0.006 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.001
+
+  140 0.000 0.011 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.002
+
+  141 0.004 0.126 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.030
+
+  142 0.103 0.879 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.104
+
+  143 0.010 0.233 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.053
+
+  144 0.003 0.063 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.063
+
+  145 0.018 0.398 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.181
+
+  146 0.040 0.040 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.040
+
+  147 0.044 0.688 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.505
+
+  148 0.019 0.447 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.046
+
+  149 0.000 0.000 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.000
+
+  150 0.021 0.104 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.063
+
+  151 0.000 0.000 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.000
+
+  152 0.005 0.123 TestSet_1920x1080_444p_16b_BER_fromTiff_000.rgb TestSet_092541010_HD_444p_12b_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.123
+
+Summary: Among   153 frames.
+  Mean 0.015   Max 1.047 @ frame 136
+                sm 0.505 @ frame 147

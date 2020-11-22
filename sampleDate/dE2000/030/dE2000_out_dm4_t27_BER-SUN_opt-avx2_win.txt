@@ -1,0 +1,892 @@
+Ref frame:        U:\DVPD_CI\results\manual_tests\DSV_libdm4\video_out\SUN\030\UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb
+Test frame:       U:\DVPD_CI\results\manual_tests\DSV_libdm4\video_out\BER\1_DvDmApp\030\UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+Frame size:       3840 * 2160 (max supported 4096 * 2160)
+sm:               on
+Ref  frame spec:  Rgb,  444,  U16, 12 bit, Plnr,     Pq,    full, P3d65, yuvXferR709
+Test frame spec:  Rgb,  444,  U16, 12 bit, Plnr,     Pq,    full, P3d65, yuvXferR709
+
+
+Frame  Mean   Max                                      ref vs                                     test
+
+    0 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+    1 0.041 1.853 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.783
+
+    2 0.012 0.513 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.277
+
+    3 0.009 0.287 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.106
+
+    4 0.007 0.251 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.115
+
+    5 0.004 0.195 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.079
+
+    6 0.002 0.104 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.046
+
+    7 0.009 0.287 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.106
+
+    8 0.007 0.251 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.115
+
+    9 0.004 0.195 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.079
+
+   10 0.002 0.104 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.046
+
+   11 0.011 0.281 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.109
+
+   12 0.009 0.219 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.094
+
+   13 0.006 0.163 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.070
+
+   14 0.003 0.106 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.041
+
+   15 0.011 0.281 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.109
+
+   16 0.009 0.219 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.094
+
+   17 0.006 0.163 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.070
+
+   18 0.003 0.106 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.041
+
+   19 0.009 0.287 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.106
+
+   20 0.007 0.251 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.115
+
+   21 0.004 0.195 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.079
+
+   22 0.002 0.104 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.046
+
+   23 0.012 0.370 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.148
+
+   24 0.010 0.334 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.133
+
+   25 0.008 0.242 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.102
+
+   26 0.006 0.209 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.087
+
+   27 0.017 0.468 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.204
+
+   28 0.015 0.443 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.196
+
+   29 0.012 0.404 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.174
+
+   30 0.010 0.332 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.169
+
+   31 0.017 0.468 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.204
+
+   32 0.015 0.443 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.196
+
+   33 0.012 0.404 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.174
+
+   34 0.010 0.332 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.169
+
+   35 0.011 0.372 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.148
+
+   36 0.009 0.338 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.132
+
+   37 0.007 0.258 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.098
+
+   38 0.005 0.206 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.084
+
+   39 0.020 0.598 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.254
+
+   40 0.018 0.589 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+   41 0.015 0.587 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.274
+
+   42 0.013 0.574 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.264
+
+   43 0.026 0.550 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.355
+
+   44 0.025 0.542 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.373
+
+   45 0.025 0.603 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.406
+
+   46 0.025 0.573 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.437
+
+   47 0.022 0.598 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.277
+
+   48 0.021 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.265
+
+   49 0.018 0.594 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.250
+
+   50 0.017 0.542 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.236
+
+   51 0.017 0.544 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.252
+
+   52 0.015 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.259
+
+   53 0.012 0.525 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.213
+
+   54 0.011 0.594 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.242
+
+   55 0.031 0.904 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.464
+
+   56 0.033 0.838 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.508
+
+   57 0.040 1.801 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.703
+
+   58 0.045 6.075 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       2.162
+
+   59 0.034 0.758 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.495
+
+   60 0.037 1.089 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.549
+
+   61 0.045 2.446 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.965
+
+   62 0.054 6.143 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       2.227
+
+   63 0.024 0.575 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.325
+
+   64 0.023 0.549 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.334
+
+   65 0.022 0.607 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.350
+
+   66 0.021 0.566 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.360
+
+   67 0.001 0.232 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.097
+
+   68 0.001 0.232 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.097
+
+   69 0.001 0.232 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.097
+
+   70 0.001 0.232 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.097
+
+   71 0.001 0.232 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.097
+
+   72 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+   73 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+   74 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+   75 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+   76 0.002 0.295 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.120
+
+   77 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+   78 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+   79 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+   80 0.004 0.405 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.145
+
+   81 0.004 0.380 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.124
+
+   82 0.009 0.478 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.268
+
+   83 0.008 0.478 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.268
+
+   84 0.007 0.551 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.265
+
+   85 0.006 0.447 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.200
+
+   86 0.005 0.418 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.155
+
+   87 0.012 0.478 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.258
+
+   88 0.012 0.478 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.258
+
+   89 0.009 0.549 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.223
+
+   90 0.009 0.477 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.197
+
+   91 0.009 0.447 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.165
+
+   92 0.017 0.637 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.258
+
+   93 0.012 0.582 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.220
+
+   94 0.012 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.219
+
+   95 0.011 0.494 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.197
+
+   96 0.011 0.494 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.197
+
+   97 0.027 1.047 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.465
+
+   98 0.017 0.569 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.235
+
+   99 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  100 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  101 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  102 0.002 0.318 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.137
+
+  103 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+  104 0.002 0.335 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.134
+
+  105 0.004 0.455 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.211
+
+  106 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+  107 0.005 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.287
+
+  108 0.006 0.553 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.242
+
+  109 0.007 0.505 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.237
+
+  110 0.007 0.568 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.241
+
+  111 0.009 0.555 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.226
+
+  112 0.009 0.545 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.225
+
+  113 0.010 0.552 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.188
+
+  114 0.011 0.508 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.240
+
+  115 0.012 0.573 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.224
+
+  116 0.013 0.558 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.248
+
+  117 0.017 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.235
+
+  118 0.018 0.589 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.250
+
+  119 0.020 0.588 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.227
+
+  120 0.002 0.293 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.125
+
+  121 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+  122 0.002 0.327 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.128
+
+  123 0.004 0.455 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.221
+
+  124 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+  125 0.005 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.263
+
+  126 0.006 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.282
+
+  127 0.007 0.551 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.265
+
+  128 0.007 0.542 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.226
+
+  129 0.009 0.594 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.194
+
+  130 0.009 0.549 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.223
+
+  131 0.010 0.555 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.214
+
+  132 0.011 0.600 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.233
+
+  133 0.012 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.219
+
+  134 0.013 0.544 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.206
+
+  135 0.017 0.597 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.259
+
+  136 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  137 0.020 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.240
+
+  138 0.002 0.318 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.137
+
+  139 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+  140 0.002 0.335 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.134
+
+  141 0.004 0.455 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.211
+
+  142 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+  143 0.005 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.287
+
+  144 0.006 0.553 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.242
+
+  145 0.007 0.505 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.237
+
+  146 0.007 0.568 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.241
+
+  147 0.009 0.555 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.226
+
+  148 0.009 0.545 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.225
+
+  149 0.010 0.552 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.188
+
+  150 0.011 0.508 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.240
+
+  151 0.012 0.573 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.224
+
+  152 0.013 0.558 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.248
+
+  153 0.017 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.235
+
+  154 0.018 0.589 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.250
+
+  155 0.020 0.588 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.227
+
+  156 0.002 0.293 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.125
+
+  157 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+  158 0.002 0.327 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.128
+
+  159 0.004 0.455 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.221
+
+  160 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+  161 0.005 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.263
+
+  162 0.006 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.282
+
+  163 0.007 0.551 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.265
+
+  164 0.007 0.542 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.226
+
+  165 0.009 0.594 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.194
+
+  166 0.009 0.549 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.223
+
+  167 0.010 0.555 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.214
+
+  168 0.011 0.600 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.233
+
+  169 0.012 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.219
+
+  170 0.013 0.544 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.206
+
+  171 0.017 0.597 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.259
+
+  172 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  173 0.020 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.240
+
+  174 0.002 0.318 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.137
+
+  175 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+  176 0.002 0.335 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.134
+
+  177 0.004 0.455 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.211
+
+  178 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+  179 0.005 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.287
+
+  180 0.006 0.553 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.242
+
+  181 0.007 0.505 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.237
+
+  182 0.007 0.568 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.241
+
+  183 0.009 0.555 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.226
+
+  184 0.009 0.545 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.225
+
+  185 0.010 0.552 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.188
+
+  186 0.011 0.508 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.240
+
+  187 0.012 0.573 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.224
+
+  188 0.013 0.558 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.248
+
+  189 0.017 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.235
+
+  190 0.018 0.589 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.250
+
+  191 0.020 0.588 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.227
+
+  192 0.002 0.293 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.125
+
+  193 0.003 0.297 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.136
+
+  194 0.002 0.327 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.128
+
+  195 0.004 0.455 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.221
+
+  196 0.006 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.256
+
+  197 0.005 0.458 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.263
+
+  198 0.006 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.282
+
+  199 0.007 0.551 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.265
+
+  200 0.007 0.542 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.226
+
+  201 0.009 0.594 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.194
+
+  202 0.009 0.549 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.223
+
+  203 0.010 0.555 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.214
+
+  204 0.011 0.600 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.233
+
+  205 0.012 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.219
+
+  206 0.013 0.544 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.206
+
+  207 0.017 0.597 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.259
+
+  208 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  209 0.020 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.240
+
+  210 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  211 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  212 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  213 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  214 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  215 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  216 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  217 0.038 1.774 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.757
+
+  218 0.040 2.073 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.844
+
+  219 0.040 2.073 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.844
+
+  220 0.040 2.073 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.844
+
+  221 0.040 2.073 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.844
+
+  222 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  223 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  224 0.011 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.247
+
+  225 0.012 0.513 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.277
+
+  226 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  227 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  228 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  229 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  230 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  231 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  232 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  233 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.772
+
+  234 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.780
+
+  235 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.780
+
+  236 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.780
+
+  237 0.039 2.096 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.780
+
+  238 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  239 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  240 0.011 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.247
+
+  241 0.012 0.513 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.277
+
+  242 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  243 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  244 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  245 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  246 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  247 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  248 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  249 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  250 0.016 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  251 0.016 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  252 0.015 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  253 0.015 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  254 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  255 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  256 0.011 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.247
+
+  257 0.012 0.513 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.277
+
+  258 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  259 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  260 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  261 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  262 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  263 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  264 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  265 0.017 0.596 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.249
+
+  266 0.016 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  267 0.016 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  268 0.015 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  269 0.015 0.579 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.244
+
+  270 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  271 0.014 0.584 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.228
+
+  272 0.011 0.565 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.247
+
+  273 0.012 0.513 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.277
+
+  274 0.019 0.594 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.299
+
+  275 0.014 0.508 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.225
+
+  276 0.017 0.470 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.199
+
+  277 0.013 0.822 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.399
+
+  278 0.028 2.722 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       2.409
+
+  279 0.022 1.654 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       1.529
+
+  280 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  281 0.022 2.727 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       2.401
+
+  282 0.030 5.247 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       4.131
+
+  283 0.017 0.502 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.237
+
+  284 0.018 0.532 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.233
+
+  285 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  286 0.014 0.574 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.280
+
+  287 0.014 0.713 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.322
+
+  288 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  289 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  290 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  291 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+  292 0.018 0.547 UHD_444p_12bit_DM4_target27_hdr600_SUN_win.rgb UHD_444p_12bit_DM4_target27_hdr600_BER_opt-avx2_win.rgb
+   sm       0.246
+
+Summary: Among   293 frames.
+  Mean 0.014   Max 6.143 @ frame 62
+                sm 4.131 @ frame 282

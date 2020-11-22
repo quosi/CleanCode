@@ -1,5 +1,2 @@
-# Ignore textfiles
-*.txt
-
 # Ignore temp foulders
 src/__pycache__/
