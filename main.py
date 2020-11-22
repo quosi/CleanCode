@@ -34,7 +34,7 @@ def main(argv):
     pathId = iqaProcessor.getSubPathId(pathList)
     for i, path in enumerate(pathList):
         files = iqaProcessor.getFilenameList(path)
-        outDir = outpath + pathId[i]
+        outDir = outpath + pathId[i] +"/"
         try:
             os.mkdir(outDir)
         except OSError as error:

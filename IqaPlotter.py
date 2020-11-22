@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from bokeh.plotting import figure, output_file, show, save
 from bokeh.models import Range1d
 from bokeh.embed import components
-#from IqaLoggingProcessor import IqaLoggingProcessor
 
 class IqaPlotter:
     '''A tool to plot IQA data that was pre-processed by 
@@ -66,6 +65,7 @@ class IqaPlotter:
         plt.title(f'Target {self.target[1:]} - {self.targetDict[self.target]}nits image quality comparison of {self.tool1} {self.opt} vs. {self.tool2} {str.upper(self.algo)} module')
         plt.legend()
         plt.savefig(self.outpath + self.file + ".png", dpi=200)
+        plt.close()
 
     def getInteractivePlot(self, dataFrame):
         output_file(self.outpath + self.file + ".html")

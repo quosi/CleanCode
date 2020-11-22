@@ -31,7 +31,7 @@ class IqaLoggingProcessor:
         return metric, size, algo, target, tools[0], tools[1], opt, os
 
     def getSubPathId(self, subPath):
-        pathId = [p.pop(-1) for p in subPath]
+        pathId = [p.split('/')[-2] for p in subPath]
         return pathId
 
     def getDeltaE2000Values(self, filepath, filename):
