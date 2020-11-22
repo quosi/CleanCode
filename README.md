@@ -8,15 +8,22 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 ## STEP 1
 
 
-Some steps to create a nice ditigal working environment for a clean start: <br> - initialise a git repository for version controll and link it to a remote URL <br> - create and/or activate your virtual environment for this project <br> - move working files like ```*.ipynb``` out of this repository or at least <br> - create a ```.gitignore``` file do hide certain files like ```notes.txt``` from git version controll <br> - draw diagram to plan code structure <br> - tea break ☕ | <img align="right" width="300" src="img/screenshot1.png" alt="Original state, collection of python scripts"> <br><br><br> <img align="right" width="300" src="img/screenshot2.png" alt="Initialise git and clean up working files">
-:---|---:
- | 
+<img align="right" width="300" src="img/screenshot1.png" alt="Original state, collection of python scripts">
 
-<br><br><br>
+Some steps to create a nice ditigal working environment for a clean start:
+- initialise a git repository for version controll and link it to a remote URL
+- create and/or activate your virtual environment for this project
+- move working files like ```*.ipynb``` out of this repository or at least
+- create a ```.gitignore``` file do hide certain files like ```notes.txt``` from git version controll
+
+<img align="right" width="300" src="img/screenshot2.png" alt="Initialise git and clean up working files">
+
+- draw diagram to plan code structure
+- tea break ☕
 
 ## STEP 2
 
-<img align="right" width="500" src="img/screenshot3.png" alt="Refactoring of code functionality into seperate function.">
+<img align="right" width="450" src="img/screenshot3.png" alt="Refactoring of code functionality into seperate function.">
 
 Now its about time to dig into this code collection and start cleaning!
 - delet unused imports
@@ -28,7 +35,7 @@ Now its about time to dig into this code collection and start cleaning!
 - delet unnecessary functionality <br>
   like the processing of ```global max```, ```global min```, ```global mean``` and ```global average``` values in the example code
 - deleted unnecessary columns from dataframe <br>
-  like ```algo```, ```dm tools```, ```target``` and ```size``` values in the example code
+  like ```algo```, ```dm tools```, ```target``` and <br>```size``` values in the example code
 - more tea ☕
 
 ## STEP 3
