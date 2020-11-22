@@ -7,7 +7,7 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 
 ## STEP 1
 
-![screenshot1](/img/screenshot1.png "Original state, collection of python scripts"){: width=150 style="float:right}
+![screenshot1](/img/screenshot1.png "Original state, collection of python scripts"){: width=150 style="float:right"}
 
 Some steps to create a nice ditigal working environment for a clean start:
 - initialise a git repository for version controll and link it to a remote URL
@@ -15,7 +15,9 @@ Some steps to create a nice ditigal working environment for a clean start:
 - move working files like ```*.ipynb``` out of this repository or at least
 - create a ```.gitignore``` file do hide certain files like ```notes.txt``` from git version controll
 
+<div style="width:150px; float:right">
 <img align="right" width="200" src="img/screenshot2.png" alt="Initialise git and clean up working files">
+</div>
 
 - draw diagram to plan code structure
 - tea break ☕
