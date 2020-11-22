@@ -22,8 +22,9 @@ Some steps to create a nice ditigal working environment for a clean start:
 
 
 ## STEP 2
-
+<p align="right" width="300">
 ![Screenshot3](/img/screenshot3.png "Refactoring of code functionality into seperate function.")
+</p>
 
 Now its about time to dig into this code collection and start cleaning!
 - delet unused imports
