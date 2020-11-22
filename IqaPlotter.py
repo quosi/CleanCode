@@ -26,27 +26,29 @@ class IqaPlotter:
         # ----------------------------------------------------------------------
         # TODO need to get Luma and Chroma Values in separat COLUMNS not DFs!!
         # ----------------------------------------------------------------------
-
         if self.df.iloc[-1][0] != self.df.index[-1]:
-            luma = []
-            chroma = []
+            lumaColumns = [c + " Luma" for c in list(self.df.columns)]
+            chromaColumns = [c + " Chroma" for c in list(self.df.columns)]
+            dfLuma = pd.DataFrame(columns=lumaColumns)
+            dfChroma = pd.DataFrame(columns=chromaColumns)
+
             for i in range(int(self.df.index[-1])+1):
                 if i%2 == 0:
-                    luma.append(i)
+                    dfLuma.append(pd.Series(list(self.df.iloc[i]), index=lumaColumns), ignore_index=True)
                 else:
-                    chroma.append(i)
-            dfLuma = self.df.iloc[luma]
-            dfChroma = self.df.iloc[chroma]
-            dfLuma.reset_index(drop=True, inplace=True)
-            dfChroma.reset_index(drop=True, inplace=True)
-            
+                    dfChroma.append(pd.Series(list(self.df.iloc[i]), index=chromaColumns), ignore_index=True)
+
+            #dfLuma.reset_index(drop=True, inplace=True)
+            #dfChroma.reset_index(drop=True, inplace=True)
+
             print(list(dfLuma.index))
             print(list(dfChroma.index))
-            pd.concat([dfLuma, dfChroma], axis = 1)
+
+            combinedData = pd.concat([dfLuma, dfChroma], axis = 1)
             print("---> Splitting Luma and Chroma data")
-            return [dfLuma, dfChroma]
+            return combinedData
         else:
-            return [self.df]
+            return self.df
 
     def prepIctcpPlot(self):
         #dataFrames = self.splittDf()
@@ -102,5 +104,5 @@ fileComponents = iqa.getFilenameComponents(file)
 ictcpData = iqa.getIctcpValues(pathList[0], file)
 df_out = iqa.createDataframe(ictcpData, fileComponents)
 plot = IqaPlotter(df_out, outpath, fileComponents, file)
-df1, df2 = plot.splittDf()
+df2 = plot.splittDf()
 plot.getSimplePlot(df2)
