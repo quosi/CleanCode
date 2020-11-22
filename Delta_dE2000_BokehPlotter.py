@@ -93,7 +93,7 @@ def draw_ictcp(file, inpath, outpath):
     y_sm = [float(y) for y in df.loc['smoothed dE2000 max']]
     y_th10 = [1 for i in range(0, int(len(x)))]
     y_th25 = [2.5 for i in range(0, int(len(x)))]
-                              
+
     max_yticks = math.ceil(max(y_max))
     if max_yticks < 3:
         max_yticks = 3
@@ -117,12 +117,11 @@ def draw_ictcp(file, inpath, outpath):
     # TODO output HTML only if DATA not NULL
     output_file(outpath + file.split('.')[0] + ".html")
     tools = ["pan","box_zoom","hover","reset","save"]
-    TOOLTIPS = [
+    tooltips = [
         ("Frame", "$index"),
-        ("JND", "$y")
-    ]
+        ("JND", "$y")]
     p = figure(
-        tools=tools, tooltips=TOOLTIPS, toolbar_location="above",
+        tools=tools, tooltips=tooltips, toolbar_location="above",
         y_range=[0, max_yticks], title=title,
         x_axis_label='Number of frames', y_axis_label='DeltaE CIE2000  error level in JND',
         plot_width=1000, plot_height=500)
