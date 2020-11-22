@@ -1,4 +1,4 @@
-<img src="img/CleanCode_CheatSheet.png" alt="CleanCode_CheatSheet.png">
+![CleanCode_CheatSheet](/img/CleanCode_CheatSheet.png" "CleanCode CheatSheet")
 
 # Apply CleanCode 
 
@@ -7,7 +7,7 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 
 ## STEP 1
 
-<div style="width:200px; float:right">![screenshot1](/img/screenshot1.png "Original state, collection of python scripts")</div>
+<img align="right" width="200" src="img/screenshot1.png" alt="Original state, collection of python scripts">
 
 Some steps to create a nice ditigal working environment for a clean start:
 - initialise a git repository for version controll and link it to a remote URL
