@@ -7,7 +7,7 @@ As this bundle of data analysis code grew to the medium size collection of a pyt
 
 ## STEP 1
 
-<img align="right" width="200" src="img/screenshot1.png" alt="Original state, collection of python scripts">
+<img align="right" width="300" src="img/screenshot1.png" alt="Original state, collection of python scripts">
 
 Some steps to create a nice ditigal working environment for a clean start:
 - initialise a git repository for version controll and link it to a remote URL
@@ -15,7 +15,7 @@ Some steps to create a nice ditigal working environment for a clean start:
 - move working files like ```*.ipynb``` out of this repository or at least
 - create a ```.gitignore``` file do hide certain files like ```notes.txt``` from git version controll
 
-<img align="right" width="200" src="img/screenshot2.png" alt="Initialise git and clean up working files">
+<img align="right" width="300" src="img/screenshot2.png" alt="Initialise git and clean up working files">
 
 - draw diagram to plan code structure
 - tea break ☕
@@ -23,9 +23,11 @@ Some steps to create a nice ditigal working environment for a clean start:
 
 ## STEP 2
 
+![Screenshot3](/img/screenshot3.png "Refactoring of code functionality into seperate function." =150x100)
+
 Now its about time to dig into this code collection and start cleaning!
 - delet unused imports
-- restructure code as planed
+- restructure and refactor code as planed
 - create python classes and modules to include all previously scattered processing functionality
 - get rid of redundant / duplicate code
 - make all function names camelCase
