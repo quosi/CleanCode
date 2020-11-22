@@ -1,4 +1,5 @@
 import sys
+import os
 import getopt
 from IqaLoggingProcessor import IqaLoggingProcessor
 from IqaPlotter import IqaPlotter
@@ -28,18 +29,26 @@ def main(argv):
             print("Unsupported argument. \n Please use -h option for help.")
 
     # 2. Data retrieval and processing
-    
-    iqa = IqaLoggingProcessor(inpath)
-    pathList = iqa.getSubPathList()
-    files = iqa.getFilenameList(pathList[1])
-    fileComponents = iqa.getFilenameComponents(files[1])
-    ictcpData = iqa.getIctcpValues(pathList[1], files[1])
-    df = iqa.createDataframe(ictcpData, fileComponents)
-    print(df)
+    iqaProcessor = IqaLoggingProcessor(inpath)
+    pathList = iqaProcessor.getSubPathList()
+    pathId = iqaProcessor.getSubPathId(pathList)
+    for i, path in enumerate(pathList):
+        files = iqaProcessor.getFilenameList(path)
+        outDir = outpath + pathId[i]
+        try:
+            os.mkdir(outDir)
+        except OSError as error:
+            print(error)
+        for file in files:
+            fileComponents = iqaProcessor.getFilenameComponents(file)
+            ictcpData = iqaProcessor.getIctcpValues(path, file)
+            data = iqaProcessor.createDataframe(ictcpData, fileComponents)
+            plotter = IqaPlotter(data, outDir, fileComponents, file)
+            df = plotter.prepareDataFrame()
+            plotter.getInteractivePlot(df)
+            plotter.getSimplePlot(df)
 
-# -1. executing main function
-
+# 3. executing main function
 if __name__ == "__main__":
     main(sys.argv[1:])
-
 exit(0)

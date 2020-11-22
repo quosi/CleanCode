@@ -19,9 +19,9 @@ class IqaPlotter:
         self.metric, self.size, self.algo, self.target, self.tool1, self.tool2, self.opt, self.os = [*namecomponents] 
         self.targetDict = {'t1': '100', 't27': '600', 't49': '1000'}
         if self.metric == "ictcp":
-            self.threshold = {'min': 0.2, 'max': 1, 'yAxis': 1.1}
+            self.threshold = {'min': 0.2, 'max': 1, 'yAxis': 2}
         else:
-            self.threshold = {'min': 1, 'max': 2.5, 'yAxis': 2.7}
+            self.threshold = {'min': 1, 'max': 2.5, 'yAxis': 3}
 
     # implement functionality
     def prepareDataFrame(self):
@@ -29,7 +29,7 @@ class IqaPlotter:
         for luma & chroma analysis when option -x was activated. 
         This function checks for its activation and separates 
         luma and chroma data in separat DataFrames columns.'''
-        if self.df.iloc[-1][0] != self.df.index[-1]:
+        if int(self.df.iloc[-1][0]) != int(self.df.index[-1]):
             lumaColumns = [c + " Luma" for c in list(self.df.columns)]
             chromaColumns = [c + " Chroma" for c in list(self.df.columns)]
             dfLuma = pd.DataFrame(columns=lumaColumns)
@@ -39,9 +39,9 @@ class IqaPlotter:
                     dfLuma = dfLuma.append(pd.Series(list(self.df.iloc[i]), index=lumaColumns), ignore_index=True)
                 else:
                     dfChroma = dfChroma.append(pd.Series(list(self.df.iloc[i]), index=chromaColumns), ignore_index=True)
-            combinedDataframe = pd.concat([dfLuma[lumaColumns], dfChroma[chromaColumns[1:]]], axis = 1)
-            print("---> Splitting Luma and Chroma data")
-            return combinedDataframe
+            combinedDataFrame = pd.concat([dfLuma[lumaColumns], dfChroma[chromaColumns[1:]]], axis = 1)
+            #print("---------> Splitting Luma and Chroma data")
+            return combinedDataFrame
         else:
             return self.df
 
