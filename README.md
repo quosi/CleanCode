@@ -44,6 +44,8 @@ Now its about time to dig into this code collection and start cleaning!
 
 ## STEP 3
 
+<img align="right" width="450" src="img/screenshot4.png" alt="Writing unittests with pytest for individual functions.">
+
 - write unittests
 - solve bugs 🐞
 - add main.py script to inherit all processing functionality
@@ -52,5 +54,8 @@ Now its about time to dig into this code collection and start cleaning!
 - add documentation to functions and classes
 - write ```requirements.txt``` to collect used python libraries
 - write basic user instructions in ```README.md``` file for your git repository
+
+<br><br><br>
+
 
 
