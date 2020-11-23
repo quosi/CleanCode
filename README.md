@@ -3,7 +3,7 @@
 # Apply CleanCode 
 
 As this bundle of data analysis code grew to the medium size collection of a python scripts, it is perfect for a little Clean Code exercise. The following steps where applied in order to create an easy to use and clean python application. <br>
-[>> Go straight to that clean python application & user instructions >>](src/instructions.md)
+[>> Go straight to that clean python application & user instructions >>](src/README.md)
 
 ## STEP 1
 
