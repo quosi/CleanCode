@@ -49,4 +49,13 @@ The directory ```sampleData/``` in this repository contains examples of logfiles
  <b>The following metrices are supportet: </b>
 * Delta E ICtCp to evaluat colour difference in [ICtCp colour space](https://en.wikipedia.org/wiki/ICtCp)
 * Delta E CIE2000 to evaluate colour difference in [CIE200 colour space](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000)
+
+## Data Visualisation
  
+Running this scripts on the main foulder of your logfiles will produce static ```staticPlot.png``` and interactiv ```interactivPlot.html``` data visualisation. Look inside the main.py python script for detaled example usage of the two main components of this module, the ```IqaLoggingProcessor```and ``ÌqaPlotter``classes or use the above discribed comandline interface.
+
+Now your are all set and your results should look like this:
+
+[Example static plot of DeltaE ICtCp data](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png)
+
+[Example interactiv plot of DeltaE CIE2000 data](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png)
