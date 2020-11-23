@@ -19,11 +19,8 @@ Please find here information about the usage of the IQA Analyzer module, its cap
  Software | Version
  ---------|---------
  MacOS    | Cataline 10.15.7 
- ---------|---------
  Python   | 3.7.6
- ---------|---------
  pip      | 20.0.2
- ---------|---------
  pytest   | 5.3.5
  
   
@@ -56,6 +53,6 @@ Running this scripts on the main foulder of your logfiles will produce static ``
 
 Now your are all set and your results should look like this:
 
-[Example static plot of DeltaE ICtCp data](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png)
+![staticPlot.png](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png "Example static plot of DeltaE ICtCp data")
 
-[Example interactiv plot of DeltaE CIE2000 data](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png)
+![interactivPlot.html](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png "Example interactiv plot of DeltaE CIE2000 data")
