@@ -27,16 +27,26 @@ Please find here information about the usage of the IQA Analyzer module, its cap
  pytest   | 5.3.5
  
   
- ## Simple Setup Instructions
+## Simple Setup Instructions
  
-- [ ] Setup your virtual environment (recommended: conda environment)
-- [ ] Install Python and pip 
-- [ ] Install required python packages with pip installer
+* Setup your virtual environment (recommended: conda environment)
+* Install Python and pip 
+* Install required python packages with pip installer
   ```$ pip install -r requirements.txt```
-- [ ] Start ```src/main.py``` python script with required command line arguments for:
- * main directory path of your IAQ log files 
-    + ```-i /User/ada/...log/ictcp/
- * main output path for your plot files 
-    + ```-o /User/ada/...plots/
+* Start ```src/main.py``` python script with required command line arguments for:
+    + main directory path of your IAQ log files ```-i /User/ada/...log/ictcp/```
+    + main output path for your plot files ```-o /User/ada/...plots/```
+    + use the ```-h```argument for help
 
+<b>Sample Command Line:</b>
+
+ ```$ python3 main.py -i /User/ada/iqaProject/logfile/ictcp/ -o /User/ada/iqaProject/plots/ictcp/``` 
+ 
+## Sample Data
+ 
+The directory ```sampleData/``` in this repository contains examples of logfiles from certain image quality assesment tools that can be processed by this python module. These fouders and its content shall give an idea how to structure your files to stay on top of things with bigger data sets of logging information.
+
+ <b>The following metrices are supportet: </b>
+* Delta E ICtCp to evaluat colour difference in [ICtCp colour space](https://en.wikipedia.org/wiki/ICtCp)
+* Delta E CIE2000 to evaluate colour difference in [CIE200 colour space](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000)
  
