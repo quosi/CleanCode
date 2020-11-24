@@ -12,9 +12,14 @@ def main(argv):
     # 1. catch command line input arguments
     try:
         opts, _ = getopt.getopt(argv, "hi:o:", ["inpath=", "outpath="])
+        if len(opts) < 1:
+            print('USAGE --> python3 main.py -i <inpath> -o <outpath>')
+            print('INFO  --> Please use -h option for help.')
+            sys.exit(1)
     except getopt.GetoptError:
-        print('python3 main.py -i <inpath> -o <outpath>')
-        sys.exit(2)
+        print('USAGE --> python3 main.py -i <inpath> -o <outpath>')
+        print('INFO  --> Please use -h option for help.')
+        sys.exit(1)
 
     for opt, arg in opts:
         if opt == '-h':

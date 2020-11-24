@@ -54,7 +54,7 @@ class IqaPlotter:
             plt.plot(x, dataFrame[column].astype(float), color[i], label = column)
         plt.plot(x, [self.threshold["min"],]*frames, 'g', label = f'Threshold of {self.threshold["min"]} JND', linestyle='dotted')
         plt.plot(x, [self.threshold["max"],]*frames, 'r', label = f'Threshold of {self.threshold["max"]} JND', linestyle='dotted')
-        maxYticks = math.ceil(max(dataFrame[list(dataFrame.columns)[1:]].max()))
+        maxYticks = math.ceil(max([max(dataFrame[col]) for col in dataFrame.columns[1:]]))
         if maxYticks < self.threshold['yAxis']:
             maxYticks = self.threshold['yAxis']
         plt.yticks(range(0, maxYticks, math.ceil(maxYticks/10)))
@@ -70,7 +70,7 @@ class IqaPlotter:
         output_file(self.outpath + self.file + ".html")
         tools = ["pan","box_zoom","hover","reset","save"]
         tooltips = [("Frame", "$index"),("JND", "$y")]
-        maxYticks = math.ceil(max(dataFrame[list(dataFrame.columns)[1:]].max()))
+        maxYticks = math.ceil(max([max(dataFrame[col]) for col in dataFrame.columns[1:]]))
         if maxYticks < self.threshold['yAxis']:
             maxYticks = self.threshold['yAxis']
         color = {0: 'lightseagreen', 1: 'orchid', 2: 'deepskyblue', 3: 'orange', 4: 'olive'}

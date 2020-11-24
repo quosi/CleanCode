@@ -14,7 +14,7 @@ class IqaLoggingProcessor:
         
     # implement functionality
     def getSubPathList(self):
-        subdirlist = glob.glob(self.inpath + "**/")
+        subdirlist = glob.glob(self.inpath + "/**/")
         return subdirlist
 
     def getFilenameList(self, path):
@@ -51,13 +51,13 @@ class IqaLoggingProcessor:
             valuesFound = re.findall(regex1, line)
             smDeltaEFound = re.findall(regex2, line)
             [values.append(value) for value in valuesFound if len(value) > 0]
-            [smDeltaE.append(sm[1]) for sm in smDeltaEFound if len(smDeltaEFound) > 0]
+            [smDeltaE.append(float(sm[1])) for sm in smDeltaEFound if len(smDeltaEFound) > 0]
         readLog.close()
         for v in values:
             frame, mean, max_ = v.split()
-            frames.append(frame)
-            meanDeltaE.append(mean)
-            maxDeltaE.append(max_)
+            frames.append(int(frame))
+            meanDeltaE.append(float(mean))
+            maxDeltaE.append(float(max_))
         try:
             smDeltaE.pop(-1)
         except:
@@ -82,9 +82,9 @@ class IqaLoggingProcessor:
             frameFound = re.findall(r"(?<={})\d+".format(regex1), line)
             maxDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex3), line)
             aveDeltaEFound = re.findall(r"(?<={})\d+\.\d+\D+?\d+".format(regex4), line)
-            [frames.append(f) for f in frameFound if len(frameFound) > 0]
-            [maxDeltaE.append(maxd) for maxd in maxDeltaEFound if len(maxDeltaEFound) > 0]
-            [aveDeltaE.append(ave) for ave in aveDeltaEFound if len(aveDeltaEFound) > 0]
+            [frames.append(int(f)) for f in frameFound if len(frameFound) > 0]
+            [maxDeltaE.append(float(maxd)) for maxd in maxDeltaEFound if len(maxDeltaEFound) > 0]
+            [aveDeltaE.append(float(ave)) for ave in aveDeltaEFound if len(aveDeltaEFound) > 0]
         readLog.close()
         if len(frames) == len(maxDeltaE) == len(aveDeltaE):
             print("Reading --> " + filename)
