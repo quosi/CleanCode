@@ -51,8 +51,8 @@ The directory ```sampleData/``` in this repository contains examples of logfiles
  
 Running this scripts on the main foulder of your logfiles will produce static ```staticPlot.png``` and interactiv ```interactivPlot.html``` data visualisation. Look inside the main.py python script for detaled example usage of the two main components of this module, the ```IqaLoggingProcessor```and ``ÌqaPlotter``classes or use the above discribed comandline interface.
 
-Now your are all set and your results should look like this:
+Now you are all set and your results should look like this:
 
-![staticPlot.png](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png "Example static plot of DeltaE ICtCp data")
+![staticPlot.png](https://github.com/quosi/CleanCode/blob/main/img/examplePlot1.png "Example static plot of DeltaE ICtCp data")
 
-![interactivPlot.html](https://github.com/quosi/CleanCode/edit/main/img/examplePlot1.png "Example interactiv plot of DeltaE CIE2000 data")
+![interactivPlot.html](https://raw.githubusercontent.com/quosi/CleanCode/main/img/examplePlot2.png "Example interactiv plot of DeltaE CIE2000 data")
