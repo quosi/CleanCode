@@ -58,16 +58,16 @@ class IqaLoggingProcessor:
             frames.append(int(frame))
             meanDeltaE.append(float(mean))
             maxDeltaE.append(float(max_))
-        try:
+        '''try:
             smDeltaE.pop(-1)
         except:
-            print("Error   --> Logfile " + filename + " incomplete!")
-            exit(1)
-        if len(frames) == len(meanDeltaE) == len(maxDeltaE) == len(smDeltaE):
+            print("Error Id1   --> Logfile " + filename + " incomplete!")
+            exit(1)'''
+        if len(frames) == len(meanDeltaE) == len(maxDeltaE == len(smDeltaE):
             print("Reading --> " + filename)
             return [frames, meanDeltaE, maxDeltaE, smDeltaE]
         else:
-            print("Error   --> Logfile " + filename + " incomplete!")
+            print("Error Id2   --> Logfile " + filename + " incomplete!")
             exit(1)
 
     def getIctcpValues(self, filepath, filename):
@@ -90,7 +90,7 @@ class IqaLoggingProcessor:
             print("Reading --> " + filename)
             return [frames, maxDeltaE, aveDeltaE]
         else:
-            print("Error   --> Logfile " + filename + " incomplete!")
+            print("Error Id3   --> Logfile " + filename + " incomplete!")
             exit(1)
 
     def createDataframe(self, filepath, filename, nameComponents):
@@ -102,7 +102,7 @@ class IqaLoggingProcessor:
             columnames = ['Frame', 'DeltaE CIE2000 mean', 'DeltaE CIE2000 max', 'smoothed DeltaE CIE2000']
             data = self.getDeltaE2000Values(filepath, filename)
         else:
-            print(f"Error   --> Unsupportet metric: {metric}. Please check log file name string.")
+            print(f"Error Id4  --> Unsupportet metric: {metric}. Please check log file name string.")
             exit(1)
         content = list(zip(*data))
         df = pd.DataFrame(list(np.array(content)), columns=columnames)
