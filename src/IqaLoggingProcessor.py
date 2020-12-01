@@ -58,16 +58,18 @@ class IqaLoggingProcessor:
             frames.append(int(frame))
             meanDeltaE.append(float(mean))
             maxDeltaE.append(float(max_))
-        '''try:
+        try:
+            #print(len(smDeltaE))
             smDeltaE.pop(-1)
         except:
-            print("Error Id1   --> Logfile " + filename + " incomplete!")
-            exit(1)'''
-        if len(frames) == len(meanDeltaE) == len(maxDeltaE == len(smDeltaE):
-            print("Reading --> " + filename)
+            print("Error Id1 --> Logfile " + filename + " incomplete!")
+            exit(1)
+        if len(frames) == len(meanDeltaE) == len(maxDeltaE) == len(smDeltaE):
+            print("Reading   --> " + filename)
             return [frames, meanDeltaE, maxDeltaE, smDeltaE]
         else:
-            print("Error Id2   --> Logfile " + filename + " incomplete!")
+            print("Error Id2 --> Logfile " + filename + " incomplete!")
+            print(f'Detected  --> {len(frames)} Frames, {len(meanDeltaE)} mean dE, {len(maxDeltaE)} max dE, {len(smDeltaE)} sm dE)
             exit(1)
 
     def getIctcpValues(self, filepath, filename):
